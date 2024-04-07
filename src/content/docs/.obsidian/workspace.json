@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "81559ba2d56db51a",
+        "id": "bf35bc90355bb265",
         "type": "tabs",
         "children": [
           {
-            "id": "599f08cf79966210",
+            "id": "0af8af5562e675e1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "algorithms/graphs-and-matching/network-flow.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -69,7 +65,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "05bb024fc1f8b23c",
@@ -85,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "algorithms/graphs-and-matching/network-flow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "algorithms/graphs-and-matching/network-flow.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "algorithms/graphs-and-matching/network-flow.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,13 +139,49 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "599f08cf79966210",
+  "active": "0af8af5562e675e1",
   "lastOpenFiles": [
+    "Pasted image 20240504223831.png",
+    "Pasted image 20240505130222.png",
+    "rmt/slides/analysis.md",
+    "Pasted image 20240505132634.png",
+    "rmt/slides/analysis.html",
+    "Pasted image 20240505130439.png",
+    "Pasted image 20240505130437.png",
+    "rmt/quantitative-analysis.md",
+    "rmt/science.md",
+    "rmt/slides",
+    "machine-learning/regression/maths/optimal-vectorised-loss.md",
+    "rmt/experiment-design.md",
+    "rmt/reading papers.md",
+    "rmt",
+    "README.md",
+    "crypto/traditional-encryption/traditional encryption.md",
+    "crypto/traditional-encryption/transposition-ciphers.md",
+    "crypto/mathematical-foundations/polynomial-arithmetic.md",
+    "crypto/traditional-encryption/substitution-ciphers.md",
+    "crypto/mathematical-foundations/xor.md",
+    "crypto/mathematical-foundations/modular-arithmetic.md",
+    "crypto/mathematical-foundations/information-theory.md",
+    "crypto/simple-cipher.md",
+    "crypto/traditional-encryption",
+    "crypto/motivation.md",
+    "crypto/message-digest.md",
+    "crypto/mathematical-foundations",
+    "crypto/glossary.md",
+    "crypto/block-ciphers.md",
+    "crypto",
+    "algorithms/graphs-and-matching/stable-matching.md",
     "algorithms/geometric/vertical-horizontal-intersection.md",
-    "algorithms/geometric/simple-polygons.md",
+    "algorithms/geometric/furthest-pair.md",
     "algorithms/geometric/segment-intersection.md",
+    "algorithms/geometric/simple-polygons.md",
     "algorithms/geometric/intro.md",
-    "algorithms/geometric/closest-pair.md",
-    "algorithms/geometric/convex-hull.md"
+    "algorithms/geometric",
+    "algorithms/strings",
+    "algorithms/graphs-and-matching",
+    "algorithms",
+    "suge/Pasted image 20240411133454.png",
+    "suge/Pasted image 20240411133434.png"
   ]
 }

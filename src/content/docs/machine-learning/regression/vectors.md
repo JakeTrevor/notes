@@ -179,4 +179,4 @@ $$
 \hat{w}=(X^\top X)^{-1} X^\top t
 $$
 
-Deriving this is outside the scope of the course. If you're interested, there's a derivation [[vectorised lin reg|here]].
+Deriving this is outside the scope of the course. If you're interested, there's a derivation [here](/machine-learning/regression/maths/optimal-vectorised-loss).

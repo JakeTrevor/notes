@@ -10,7 +10,6 @@ const algs = {
     {
       label: "Geometric Algorithms",
       items: [
-        // Each item here is one entry in the navigation menu.
         {
           label: "Introduction to Geometric Algorithms",
           link: "/algorithms/geometric/intro/",
@@ -38,6 +37,23 @@ const algs = {
         {
           label: "Vertical and Horizontal Line Intersection",
           link: "/algorithms/geometric/vertical-horizontal-intersection/",
+        },
+      ],
+    },
+    {
+      label: "Graph and Matching Algorithms",
+      items: [
+        {
+          label: "Introduction to Matching Algorithms",
+          link: "/algorithms/graphs-and-matching/intro/",
+        },
+        {
+          label: "Bipartite Graph Matching",
+          link: "/algorithms/graphs-and-matching/bipartite-matching/",
+        },
+        {
+          label: "Network Flow",
+          link: "/algorithms/graphs-and-matching/network-flow/",
         },
       ],
     },

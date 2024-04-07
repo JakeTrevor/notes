@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ml"
+version = "0.1.0"
+description = "Machine learning notes and notebook"
+authors = ["Jacob Trevor <50667410+JakeTrevor@users.noreply.github.com>"]
+license = "GPL3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+jupyter = "^1.0.0"
+numpy = "^1.26.4"
+pandas = "^2.2.1"
+matplotlib = "^3.8.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

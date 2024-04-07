@@ -45,11 +45,11 @@ _Find the parameters $w$ to the model that minimises the loss_
 $$\argmin_{w}\ \mathcal{L} \left(w | x, t\right)$$
 :::
 
-There are several ways to go about doing this. Often, its possible to find a perfect analytical solution; Checkout [[Linear Regression - Analytical Solution]] for a worked example. For simple linear models, the equations are:
+There are several ways to go about doing this. Often, its possible to find a perfect analytical solution; Checkout [Linear Regression - Analytical Solution](/machine-learning/regression/maths/optimal-loss) for a worked example. For simple linear models, the equations are:
 
 $$
-\begin{align}
+\begin{align*}
 w_{0} & =\bar{t} - \left(\frac{\bar{tx} - \bar{t}\bar{x} }{\bar{x^{2}} -\bar{x}^{2}} \right)\bar{x} \\ \\
 w_{1} &= \frac{\bar{tx} - \bar{t}\bar{x} }{\bar{x^{2}} -\bar{x}^{2}}
-\end{align}
+\end{align*}
 $$
