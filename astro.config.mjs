@@ -1,5 +1,90 @@
-import { defineConfig } from 'astro/config';
-import starlight from '@astrojs/starlight';
+import { defineConfig } from "astro/config";
+import starlight from "@astrojs/starlight";
+
+import remarkMath from "remark-math";
+import rehypeKatex from "rehype-katex";
+
+const algs = {
+  label: "Algorithms",
+  items: [
+    {
+      label: "Geometric Algorithms",
+      items: [
+        // Each item here is one entry in the navigation menu.
+        {
+          label: "Introduction to Geometric Algorithms",
+          link: "/algorithms/geometric/intro/",
+        },
+        {
+          label: "Segment Intersection",
+          link: "/algorithms/geometric/segment-intersection/",
+        },
+        {
+          label: "Simple Polygons",
+          link: "/algorithms/geometric/simple-polygons/",
+        },
+        {
+          label: "Convex Hull",
+          link: "/algorithms/geometric/convex-hull/",
+        },
+        {
+          label: "Furthest Pair",
+          link: "/algorithms/geometric/furthest-pair/",
+        },
+        {
+          label: "Closest Pair",
+          link: "/algorithms/geometric/closest-pair/",
+        },
+        {
+          label: "Vertical and Horizontal Line Intersection",
+          link: "/algorithms/geometric/vertical-horizontal-intersection/",
+        },
+      ],
+    },
+  ],
+};
+
+const machineLearning = {
+  label: "Machine Learning",
+  items: [
+    {
+      label: "Regression",
+      items: [
+        // Each item here is one entry in the navigation menu.
+        {
+          label: "Intro to regression",
+          link: "/machine-learning/regression/intro/",
+        },
+        {
+          label: "Regression (sheet 1 recap)",
+          link: "/machine-learning/regression/regression/",
+        },
+        {
+          label: "Vectorised regression",
+          link: "/machine-learning/regression/vectors/",
+        },
+        {
+          label: "next one...",
+          link: "/machine-learning/regression/regression/",
+        },
+        {
+          label: "Worked Mathematics",
+          items: [
+            {
+              label: "Analytical Solution for Optimised loss",
+              link: "/machine-learning/regression/maths/optimal-loss",
+            },
+            {
+              label:
+                "Derivation: optimal parameters for vectorised linear regression",
+              link: "/machine-learning/regression/maths/optimal-vectorised-loss",
+            },
+          ],
+        },
+      ],
+    },
+  ],
+};
 
 // https://astro.build/config
 export default defineConfig({
@@ -25,19 +110,7 @@ export default defineConfig({
           },
         },
       ],
-      sidebar: [
-        {
-          label: "Guides",
-          items: [
-            // Each item here is one entry in the navigation menu.
-            { label: "Example Guide", link: "/guides/example/" },
-          ],
-        },
-        {
-          label: "Reference",
-          autogenerate: { directory: "reference" },
-        },
-      ],
+      sidebar: [algs, machineLearning],
     }),
   ],
 });
