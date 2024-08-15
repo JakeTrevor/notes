@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "bf35bc90355bb265",
+        "id": "cba316478aac1bb4",
         "type": "tabs",
         "children": [
           {
-            "id": "0af8af5562e675e1",
+            "id": "eb4d5a32c59a582e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "knowledge-based-recs.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "05bb024fc1f8b23c",
@@ -82,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "knowledge-based-recs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "knowledge-based-recs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "knowledge-based-recs.md"
+              }
             }
           }
         ]
@@ -139,15 +146,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0af8af5562e675e1",
+  "active": "eb4d5a32c59a582e",
   "lastOpenFiles": [
-    "Pasted image 20240504223831.png",
-    "Pasted image 20240505130222.png",
+    "knowledge-based-recs.html",
+    "hybrid-recommenders.html",
+    "SVD.png",
+    "repairing-constraints.png",
+    "knowledge-based-recs.md",
+    "hybrid-recommenders.md",
+    "Pasted image 20240514172945.png",
+    "csp-solution.png",
+    "Pasted image 20240514134533.png",
+    "matrix-factorisation.md",
+    "mf-loss-gradient.png",
+    "ltr-diagram.png",
+    "features.png",
+    "diversity.md",
+    "diversity.html",
+    "matrix-factorisation.html",
+    "bpr-loss.png",
+    "Pasted.md",
+    "rec-sys.html",
     "rmt/slides/analysis.md",
-    "Pasted image 20240505132634.png",
     "rmt/slides/analysis.html",
-    "Pasted image 20240505130439.png",
-    "Pasted image 20240505130437.png",
     "rmt/quantitative-analysis.md",
     "rmt/science.md",
     "rmt/slides",
@@ -171,17 +192,6 @@
     "crypto/glossary.md",
     "crypto/block-ciphers.md",
     "crypto",
-    "algorithms/graphs-and-matching/stable-matching.md",
-    "algorithms/geometric/vertical-horizontal-intersection.md",
-    "algorithms/geometric/furthest-pair.md",
-    "algorithms/geometric/segment-intersection.md",
-    "algorithms/geometric/simple-polygons.md",
-    "algorithms/geometric/intro.md",
-    "algorithms/geometric",
-    "algorithms/strings",
-    "algorithms/graphs-and-matching",
-    "algorithms",
-    "suge/Pasted image 20240411133454.png",
-    "suge/Pasted image 20240411133434.png"
+    "algorithms/graphs-and-matching/stable-matching.md"
   ]
 }
